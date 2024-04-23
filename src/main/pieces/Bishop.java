@@ -1,4 +1,6 @@
 package main.pieces;
 
-public class Bishop {
+import main.Piece;
+
+public class Bishop extends Piece {
 }

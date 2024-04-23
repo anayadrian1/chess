@@ -3,6 +3,7 @@ package main;
 import javafx.animation.AnimationTimer;
 import javafx.scene.layout.GridPane;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Board {
@@ -35,6 +36,8 @@ public class Board {
     }
 
     public List<List<BoardSpace>> constructBoard() {
+        List<List<BoardSpace>> board = new ArrayList<>();
+        //TODO Fill with constructBoard
         return board;
     }
 }

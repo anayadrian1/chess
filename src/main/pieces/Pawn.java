@@ -1,4 +1,6 @@
 package main.pieces;
 
-public class Pawn {
+import main.Piece;
+
+public class Pawn extends Piece {
 }
