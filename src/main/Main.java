@@ -1,3 +1,5 @@
+package main;
+
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -15,7 +17,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Chess");
+        primaryStage.setTitle("main.Chess");
 
         // Use a borderpane to separate the game from the buttons
         BorderPane root = new BorderPane();

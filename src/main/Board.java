@@ -1,6 +1,7 @@
+package main;
+
 import javafx.animation.AnimationTimer;
 import javafx.scene.layout.GridPane;
-import javafx.util.Pair;
 
 import java.util.List;
 
@@ -16,7 +17,7 @@ public class Board {
     // Keeps track of the last state of the board which is used to punish the computer
     private List<List<BoardSpace>> lastBoard;
     // Keeps track of the last move of the computer which is used to punish the computer
-    //private Pair<BoardSpace, BoardSpace> lastMove;
+    //private Pair<main.BoardSpace, main.BoardSpace> lastMove;
     // Is the board in a winning state?
     private boolean hasWinner = false;
     // Is the board in auto mode?

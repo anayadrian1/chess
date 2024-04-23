@@ -1,3 +1,5 @@
+package main;
+
 import javafx.scene.layout.StackPane;
 import javafx.scene.shape.Rectangle;
 
